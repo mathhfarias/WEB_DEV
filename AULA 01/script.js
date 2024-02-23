@@ -9,6 +9,13 @@ const textoUsuario = document.querySelector('#filmeInput')
 btn1.addEventListener('click',()=>{
     //adiciona um li a lista
     listaFilmes.append(itemLista)
-    itemLista.innerHTML='<strong>Harry Potter</strong>'
+    //adiciona o texto do input na lista 
+    itemLista.innerHTML=textoUsuario.ariaValueMax
+    //adiciona uma classe
+    itemLista.classList.add(active)
+    //muda o css 
+    itemLista.style.backgroundColor = 'red' 
+
+    
     
 })
