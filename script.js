@@ -5,5 +5,8 @@ const listaFilmes = document.querySelector('#listaFilmes')
 const itemLista = document.createElement('li')
 
 btn1.addEventListener('click',()=>{
+    //adiciona um li a lista
+    listaFilmes.append(itemLista)
+    itemLista.innerHTML='<strong>Harry Potter</strong>'
     
 })
