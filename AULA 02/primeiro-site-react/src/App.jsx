@@ -9,7 +9,9 @@ function App() {
 
   return (
     <>
-    <Banner/>
+    <Banner textoBanner="Texto do meu outro HTML"/>
+    <Banner textoBanner="Outro Texto"/>
+    
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
