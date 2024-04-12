@@ -5,7 +5,7 @@ import {Outlet} from 'react-router-dom';
 function App() {
   return (
         <>
-          <Header titulo = "Meu site"/>
+          <Header titulo="Meu site"/>
           <Outlet/>
           <Footer />
         </>
